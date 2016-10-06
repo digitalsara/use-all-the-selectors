@@ -26,7 +26,7 @@ nav ul {
   background-color: #b58900;
 }
 
-.wrapper p + p {
+.wrapper > .dfn strong:nth-child(2) {
   color: #fff;
 }
 
@@ -42,11 +42,11 @@ a[rel=external] {
   background-color: #2694d8;
 }
 
-li:first-of-type {
+ol > li:first-of-type {
   color: #719e47;
 }
 
-li:last-of-type {
+ol > li:last-of-type {
   color: #2aa198;
 }
 
