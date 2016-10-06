@@ -9,3 +9,11 @@ header, footer {
 nav ul {
   font-family: sans-serif;
 }
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
