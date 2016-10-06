@@ -21,3 +21,43 @@ nav ul {
 #contents, #favs, #facts, #types {
   color: #93a1a1;
 }
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+.wrapper p + p {
+  color: #fff;
+}
+
+/*.dfn > p > strong {
+  color:#fff;
+}*/
+
+.home {
+  background-color: #719e07;
+}
+
+a[rel=external] {
+  background-color: #2694d8;
+}
+
+li:first-of-type {
+  color: #719e47;
+}
+
+li:last-of-type {
+  color: #2aa198;
+}
+
+.types > li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types > li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types > li:nth-child(3n + 3) {
+  background-color: #d04b16;
+}
